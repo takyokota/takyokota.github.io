@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="../src/css/index.css">
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <header class="hero">
+    <nav>
+      <ul id="nav-list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger">
+        <i class="fa fa-bars"></i>
+      </button>
+    </nav>
+    <div class="hero-area">
+      <div class="hero-text">
+        <h1>Takuya Yokota</h1>
+        <p>Full Stack Developer</p>
+        <div class="button"><a href="#about">About me</a></div>
+      </div>
+      <div class="socials">
+        <div>
+          <a href="https://www.github.com/takyokota" class="social" target="_blank">
+            <i class="fa-brands fa-github fa-xl"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="sub-section" id="about">
+    <div class="information">
+      <h1>About me</h1>
+      <p>My name is Takuya. I'm a web developer. I love learning and using new technologies to make people's lives
+        easier by solving problems that they face. I mainly use React, Express and SQL or NoSQL database.</p>
+    </div>
+  </section>
+  <section class="sub-section-alternative" id="projects">
+    <h1>Projects</h1>
+    <div class="project-list">
+      <div class="project-container">
+        <div class="project-card">
+          <img src="src/images/mern_ecommerce.gif" alt="MERN Stack Ecommerce App" class="project-image" id="myImg01">
+          <div class="modal" id="myModal01">
+            <span class="close01">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption01"></div>
+          </div>
+          <h3>MERN Stack Ecommerce App</h3>
+          <div class="link-list">
+            <p class="subtext">
+              <a href="https://nore-works.onrender.com" target="_blank">
+                <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                <span>Website</span>
+              </a>
+            </p>
+            <p class="subtext">
+              <a href="https://github.com/takyokota/mern-ecommerce-wheels" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <span>Source Code</span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="project-container">
+        <div class="project-card">
+          <img src="src/images/react_motorcycles.gif" alt="React Motorcycle Comparison App" class="project-image"
+            id="myImg02">
+          <div class="modal" id="myModal02">
+            <span class="close02">&times;</span>
+            <img class="modal-content" id="img02">
+            <div id="caption02"></div>
+          </div>
+          <h3>React Motorcycle Comparison App</h3>
+          <div class="link-list">
+            <p class="subtext">
+              <a href="https://motorcycle-comparison.onrender.com" target="_blank">
+                <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                <span>Website</span>
+              </a>
+            </p>
+            <p class="subtext">
+              <a href="https://github.com/takyokota/react-motorcycle-comparison-app" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <span>Source Code</span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p style="font-size: 20px; margin-top: 10px;">
+      &lpar;It may take a while to load the linked websites the first time.&rpar;
+    </p>
+  </section>
+  <footer id="contact">
+    <h2>Contact me</h2>
+    <p>yokotatakuya@gmail.com</p>
+    <p style="margin-top: 30px; font-size: 20px;">&copy;2023</p>
+  </footer>
+  <script src="../src/js/app.js"></script>
+  <script src="https://kit.fontawesome.com/fce9882781.js" crossorigin="anonymous"></script>
+  <!-- <div class="container">
+    <h1 class="neonText">
+      404
+    </h1>
+    <h2 class="neonText">Page Not Found</h2>
+  </div> -->
+</body>
+
+</html>
